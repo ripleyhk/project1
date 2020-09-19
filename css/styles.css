@@ -58,7 +58,10 @@ a {
 #nav-icon-img {
   border-radius: 50%;
 }
-
 .quote {
   font-weight: lighter;
+}
+.social-media {
+  target-name:new;
+  target-new:tab;
 }
