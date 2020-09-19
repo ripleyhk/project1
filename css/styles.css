@@ -40,7 +40,7 @@ a {
 }
 .navlink {
   color: white;
-  font-size: medium;
+  font-size: 150%;
   text-decoration: none;
 }
 .navlink:hover {
