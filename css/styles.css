@@ -35,12 +35,11 @@ a {
   display: flex;
   padding-right: 5%;
   flex-grow: 1;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .navlink {
   color: white;
-  font-size: 150%;
   text-decoration: none;
 }
 .navlink:hover {
