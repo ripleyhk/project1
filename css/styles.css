@@ -1,24 +1,26 @@
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   margin: 0;
+  margin: left
   display: flex;
   flex-direction: row;
-
   font-family: 'Lato', sans-serif;
   background-color: #eeeeee;
 }
 
 main {
-  margin-left: 5%;
+  margin-left: 10%;
   height: 75vh;
 }
 
 nav {
+  height: 100vh;
+  width: fit-content;
   display: flex;
-  flex-grow: 0;
-  padding: 2%;
-
+  position: fixed;
+  top: 0;
+  bottom: 0;
   background-color: #0d7377;
 }
 
@@ -41,21 +43,23 @@ a {
 }
 
 .navlinks {
+  padding-top: 15vh;
   display: flex;
+  width: 100%;
   flex-direction: column;
-  padding-right: 5%;
   flex-grow: 1;
-  justify-content: space-evenly;
   align-items: center;
+  box-sizing: border-box;
 }
 .navlink {
+  padding: 10px;
+  width: 75px;
   font-size: larger;
   color: #fff0f0;
   text-decoration: none;
 }
 .navlink:hover {
-  color: #ccf2ff;
-  transition: color 0.5s;
+  background-color: #d98c11;
 }
 #active-navlink {
   color: #32e0c4;
