@@ -3,7 +3,7 @@ body {
   margin: 0;
 
   font-family: 'Lato', sans-serif;
-  background-color: #f7f5ed;
+  background-color: #eeeeee;
 }
 
 main {
@@ -16,7 +16,7 @@ nav {
   flex-grow: 0;
   padding: 2%;
 
-  background-color: #35926A;
+  background-color: #0d7377;
 }
 
 img {
@@ -27,11 +27,11 @@ img {
 }
 
 h1 {
-  color: #C55142;
+  color: #3d7ea6;
 }
 
 a {
-  color: #C4549E;
+  color: #3d7ea6;
 }
 
 .navlinks {
@@ -46,10 +46,10 @@ a {
   text-decoration: none;
 }
 .navlink:hover {
-  color: #D1C07A;
+  color: #2aa0e8;
 }
 #active-navlink {
-  color: #E5B900;
+  color: #32e0c4;
 }
 .nav-icon {
   width: 10%;
