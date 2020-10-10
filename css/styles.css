@@ -2,7 +2,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  margin: left
+  margin: left;
   display: flex;
   flex-direction: row;
   font-family: 'Lato', sans-serif;
