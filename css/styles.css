@@ -123,6 +123,10 @@ a {
 #submit:hover {
   background-color: #ccf2ff;
 }
+#message {
+  display: inline;
+  margin-left: 5px;
+}
 
 a > img:hover {
   border-radius: 100%;
