@@ -125,7 +125,8 @@ a {
 }
 #message {
   display: inline;
-  margin-left: 5px;
+  text-align: right;
+  margin-bottom: 5px;
 }
 
 a > img:hover {
