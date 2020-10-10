@@ -1,5 +1,4 @@
 body {
-  width: 100vw;
   height: 100vh;
   margin: 0;
   margin: left;
@@ -11,6 +10,7 @@ body {
 
 main {
   margin-left: 10%;
+  width: 75vw;
   height: 75vh;
 }
 
@@ -81,7 +81,8 @@ a {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 10px;
-  width: 90%;
+  width: 100%;
+  height: fit-content;
   padding: 10px;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -95,27 +96,26 @@ a {
   justify-self: left;
   align-self: center;
 }
-.email-form > input {
-  height: 30px;
+.email-form > input, .email-form > textarea {
   width: 85%;
   font-size: large;
   border-radius: 2px;
-  border: solid;
+  border: solid black;
 }
-.email-form > input:hover {
+.email-form > input:hover, .email-form > textarea:hover {
   border: #0099cc solid;
 }
 #name, #email, #subject{
   width: 50%;
 }
 #comment {
-  width: 80%;
-  height: 50vh;
+  width: 90%;
+  height: 75%;
+  resize: vertical;
 }
 
 #submit {
-  margin: 10px;
-  margin-right: 10vw;
+  margin-right: 10%;
   width: 25%;
   justify-self: right;
   font-size: larger;
