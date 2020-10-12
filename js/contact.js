@@ -21,7 +21,7 @@ function mail () {
    subject = document.getElementById('subject').value;
    name = document.getElementById('name').value;
    comment = document.getElementById('comment').value;
-   if (mail_from && subject && name && comment) {
+   if ( (mail_from != "") && (subject!= "") && (name!= "") && (comment!= "") ) {
       sendMail();
    } else {
       alert("One or more message fields is empty!");
