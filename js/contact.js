@@ -8,12 +8,13 @@ const comment;
 submit.addEventListener('click', (mail()));
 
 function sendMail() {
-   var link = "mailto:" + mail_to
+   var mail = document.createElement("a");
+   mail.href = "mailto:" + mail_to
             + "&subject=" + encodeURIComponent(subject)
             + "&body=" + encodeURIComponent(comment + "\n" + name + "(" + mail_from + ")");
    ;
    
-   window.location.href = link;
+   mail.click();
 }
 
 function mail () {
