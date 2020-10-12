@@ -5,6 +5,7 @@ img {
 }
 main {
    display: grid;
+   height: 100vh;
    grid-template-columns: auto auto;
    grid-gap: 10px;
    margin-bottom: 100px;
