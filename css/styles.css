@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  margin-left: 10%;
+  margin-left: 100px;
   width: 75vw;
   height: 75vh;
 }
@@ -22,13 +22,6 @@ nav {
   top: 0;
   bottom: 0;
   background-color: #0d7377;
-}
-
-img {
-  max-width: 75%;
-  max-height: 75%;
-  width: auto;
-  height: auto;
 }
 
 h1 {
@@ -128,7 +121,6 @@ a {
   text-align: right;
   padding-bottom: 5px;
 }
-
 a > img:hover {
   border-radius: 100%;
   transition: box-shadow 1s;
