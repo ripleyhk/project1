@@ -5,7 +5,7 @@ const subject;
 const name;
 const comment;
 
-submit.addEventListener('click', mail());
+submit.addEventListener('click', (mail()));
 
 function sendMail() {
    var link = "mailto:" + mail_to
