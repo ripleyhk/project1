@@ -30,11 +30,13 @@ buttons[1].addEventListener('click', () => {
 
 document.addEventListener('keydown', (event) => {
    const key = event.key;
-   if (index == 0) {
-      index = imgs.length - 1;
-   } else {
-      index--;
-   }
+   case "ArrowLeft":
+      if (index == 0) {
+         index = imgs.length - 1;
+      } else {
+         index--;
+      }
+   break; 
    if (index == (imgs.length - 1)) {
       index = 0;
    } else {

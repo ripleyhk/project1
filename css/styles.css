@@ -70,57 +70,6 @@ a {
 .social-media {
   text-decoration: none;
 }
-.email-form {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 10px;
-  width: 100%;
-  height: fit-content;
-  padding: 10px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  background-color: #3d7ea6;
-  border: #0d7377 solid;
-  border-radius: 5px;
-  color: white;
-}
-.email-form > label {
-  font-size: 1.5em;
-  justify-self: left;
-  align-self: center;
-}
-.email-form > input, .email-form > textarea {
-  width: 85%;
-  font-size: large;
-  border-radius: 2px;
-  border: solid black;
-}
-.email-form > input:hover, .email-form > textarea:hover {
-  border: #0099cc solid;
-}
-#name, #email, #subject{
-  width: 50%;
-}
-#comment {
-  width: 90%;
-  height: 75%;
-  resize: vertical;
-}
-
-#submit {
-  margin-right: 10%;
-  width: 25%;
-  justify-self: right;
-  font-size: larger;
-}
-#submit:hover {
-  background-color: #ccf2ff;
-}
-#message {
-  display: inline;
-  text-align: right;
-  padding-bottom: 5px;
-}
 a > img:hover {
   border-radius: 100%;
   transition: box-shadow 1s;

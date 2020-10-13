@@ -1,0 +1,47 @@
+.email-form {
+   display: grid;
+   grid-template-columns: auto;
+   grid-gap: 10px;
+   width: 100%;
+   height: fit-content;
+   padding: 0;
+   color: #d66a2b;
+ }
+ .email-form > label {
+   font-size: 1.5em;
+   justify-self: left;
+   align-self: center;
+ }
+ .email-form > input, .email-form > textarea {
+   width: 85%;
+   font-size: large;
+   border-radius: 2px;
+   border: solid black;
+ }
+ .email-form > input:hover, .email-form > textarea:hover {
+   border: #0099cc solid;
+ }
+ #name, #mail, #subject{
+   width: 50%;
+ }
+ #comment {
+   width: 90%;
+   height: 15vh;
+   resize: none;
+ }
+ 
+ #submit {
+   margin-right: 10%;
+   width: 25%;
+   justify-self: right;
+   font-size: larger;
+ }
+ #submit:hover {
+   background-color: #ccf2ff;
+ }
+ #social-media {
+   margin-bottom: 10px;
+ }
+ #social-media > a {
+    text-decoration: none;
+ }
