@@ -1,7 +1,6 @@
 body {
   height: 100vh;
   margin: 0;
-  margin: left;
   display: flex;
   flex-direction: row;
   font-family: 'Lato', sans-serif;
@@ -74,4 +73,34 @@ a > img:hover {
   border-radius: 100%;
   transition: box-shadow 1s;
   box-shadow: 5px 5px 8px #d6d6d6;
+}
+@media (max-width:500px) {
+  main {
+    margin-top: 5vh;
+  }
+  nav {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #0d7377;
+  }
+  .navlinks {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .navlink {
+    width: 75px;
+    font-size: medium;
+    color: #fff0f0;
+    text-decoration: none;
+  }
 }

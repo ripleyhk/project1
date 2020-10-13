@@ -1,4 +1,4 @@
-.email-form {
+#email-form {
    display: grid;
    grid-template-columns: auto;
    grid-gap: 10px;
@@ -7,18 +7,18 @@
    padding: 0;
    color: #d66a2b;
  }
- .email-form > label {
+ #email-form > label {
    font-size: 1.5em;
    justify-self: left;
    align-self: center;
  }
- .email-form > input, .email-form > textarea {
+ #email-form > input, #email-form > textarea {
    width: 85%;
    font-size: large;
    border-radius: 2px;
    border: solid black;
  }
- .email-form > input:hover, .email-form > textarea:hover {
+ #email-form > input:hover, #email-form > textarea:hover {
    border: #0099cc solid;
  }
  #name, #mail, #subject{
@@ -44,4 +44,22 @@
  }
  #social-media > a {
     text-decoration: none;
+ }
+
+ @media (max-width:500px) {
+   #name, #mail, #subject{
+      width: 90%;
+    }
+    #comment {
+      width: 90%;
+      height: 40vh;
+      resize: none;
+    }
+    main {
+       width: 100vw;
+       margin: 0;
+       padding: 0;
+       margin-left: 10px;
+       margin-top: 20px;
+    }
  }
