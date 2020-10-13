@@ -97,7 +97,7 @@ a > img:hover {
     align-items: center;
     box-sizing: border-box;
   }
-  .navlink {
+  .navlink { 
     width: 75px;
     font-size: medium;
     color: #fff0f0;
