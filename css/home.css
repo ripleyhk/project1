@@ -1,5 +1,5 @@
 body {
-   background-image: url(/images/birds.jpg);
+   background-image: url(Z:/cs347/project1/images/birds.jpg);
    background-size: 100vw 100vh;
    font-family: 'Commissioner', sans-serif;
 }
@@ -24,3 +24,20 @@ h2 {
    padding: 0;
    margin: 0;
 }
+.quote {
+   font-weight: lighter;
+ }
+ @media (max-width:500px) {
+   body {
+      background-size: 100vw 25vh;
+      background-position-x: center;
+      background-repeat: repeat-y;
+      background-color: #76d5db;
+      justify-content: center;
+   }
+   main {
+      margin: 0;
+      margin-top: 20vh;
+      width: 90%;
+   }
+ }
