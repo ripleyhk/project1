@@ -34,7 +34,7 @@ a {
   color: #3d7ea6;
 }
 
-.navlinks {
+#navlinks {
   padding-top: 15vh;
   display: flex;
   width: 100%;
@@ -56,18 +56,8 @@ a {
 #active-navlink {
   color: #32e0c4;
 }
-.nav-icon {
-  width: 10%;
-  height: auto;
-}
-#nav-icon-img {
-  border-radius: 50%;
-}
 .quote {
   font-weight: lighter;
-}
-.social-media {
-  text-decoration: none;
 }
 a > img:hover {
   border-radius: 100%;
@@ -87,7 +77,7 @@ a > img:hover {
     right: 0;
     background-color: #0d7377;
   }
-  .navlinks {
+  #navlinks {
     padding: 0;
     margin: 0;
     display: flex;

@@ -31,7 +31,7 @@
  }
  
  #submit {
-   margin-right: 10vw;
+   margin-right: 14%;
    width: 25%;
    justify-self: right;
    font-size: larger;
@@ -47,13 +47,16 @@
  }
 
  @media (max-width:500px) {
-   #name, #mail, #subject{
+   #name, #mail, #subject, {
       width: 90%;
     }
     #comment {
       width: 90%;
       height: 40vh;
       resize: none;
+    }
+    #submit {
+      width: 50%;
     }
     main {
        width: 100vw;
