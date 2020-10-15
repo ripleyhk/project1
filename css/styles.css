@@ -33,6 +33,9 @@ h2 {
 a {
   color: #3d7ea6;
 }
+p {
+  font-family: 'Piazzolla', serif;
+}
 
 #navlinks {
   padding-top: 15vh;
