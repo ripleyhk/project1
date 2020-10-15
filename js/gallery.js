@@ -4,13 +4,13 @@ const caption = document.getElementById('viewer-caption').getElementsByTagName('
 const buttons = document.getElementsByTagName('button')
 let index = 0; 
 for (let i = 0; i < imgs.length; i++) {
-   imgs[i].addEventListener('click', () => {
+   imgs[i].addEventListener('click touchstart', () => {
       updateViewer(i);
       updateIndex();
    })
 }
 
-buttons[0].addEventListener('click', () => {
+buttons[0].addEventListener('click touchstart', () => {
    if (index == 0) {
       index = imgs.length - 1;
    } else {
@@ -19,32 +19,7 @@ buttons[0].addEventListener('click', () => {
    updateViewer(index);
 })
 
-buttons[1].addEventListener('click', () => {
-   if (index == (imgs.length - 1)) {
-      index = 0;
-   } else {
-      index++;
-   }
-   updateViewer(index);
-})
-
-for (let i = 0; i < imgs.length; i++) {
-   imgs[i].addEventListener('mouseover', () => {
-      updateViewer(i);
-      updateIndex();
-   })
-}
-
-buttons[0].addEventListener('mouseover', () => {
-   if (index == 0) {
-      index = imgs.length - 1;
-   } else {
-      index--;
-   }
-   updateViewer(index);
-})
-
-buttons[1].addEventListener('mouseover', () => {
+buttons[1].addEventListener('click touchstart', () => {
    if (index == (imgs.length - 1)) {
       index = 0;
    } else {
