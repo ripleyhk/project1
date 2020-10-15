@@ -17,11 +17,14 @@
  #viewer {
    width: fit-content;
    height: fit-content;
-   max-height: 65vh;
-   background-color: white;
    display: flex;
    flex-direction: column;
-   margin: 10px;
+   margin: 0;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: center;
+   max-height: 65vh;
+   background-color: white;
    box-shadow: 10px 15px 10px grey;
  }
  #viewer-img {
@@ -62,7 +65,7 @@
  @media (max-width:500px) {
   main {
     margin: 0;
-    margin-left: 10px;
+    margin-right: 20px;
     margin-top: 20px;
     width: 100vw;
   }
@@ -82,5 +85,8 @@
    }
    #gallery {
     height: 15vh;
+   }
+   #viewer-caption {
+    font-size: 1.5em;
    }
  }

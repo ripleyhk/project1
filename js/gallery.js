@@ -1,7 +1,7 @@
 const imgs = document.getElementsByClassName('gallery-img');
 const viewer = document.getElementById('viewer-img');
 const caption = document.getElementById('viewer-caption').getElementsByTagName('p')[0];
-const buttons = document.getElementsByTagName('button')
+const buttons = document.getElementById('controls').getElementsByTagName('button');
 let index = 0; 
 for (let i = 0; i < imgs.length; i++) {
    imgs[i].addEventListener('click', () => {
