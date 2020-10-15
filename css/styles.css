@@ -56,9 +56,6 @@ a {
 #active-navlink {
   color: #32e0c4;
 }
-.quote {
-  font-weight: lighter;
-}
 a > img:hover {
   border-radius: 100%;
   transition: box-shadow 1s;
