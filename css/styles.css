@@ -32,9 +32,11 @@ h2 {
 
 a {
   color: #3d7ea6;
-  font-family: 'Piazzolla', serif;
 }
 p {
+  font-family: 'Piazzolla', serif;
+}
+li {
   font-family: 'Piazzolla', serif;
 }
 
