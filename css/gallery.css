@@ -59,7 +59,6 @@
  #left, #right {
    font-size: xx-large;
    text-align: center;
-   text-justify: center;
    width: 10vw;
  }
  @media (max-width:500px) {

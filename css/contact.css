@@ -47,7 +47,7 @@
  }
 
  @media (max-width:500px) {
-   #name, #mail, #subject, {
+   #name, #mail, #subject {
       width: 90%;
     }
     #comment {
