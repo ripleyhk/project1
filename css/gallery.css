@@ -1,11 +1,13 @@
 #gallery {
    padding: 10px;
-   width: 100%;
+   width: 80vw;
    height: 20vh;
    display: flex;
    overflow-x: scroll;
    margin-top: 10px;
    box-sizing: border-box;
+   position: absolute;
+   bottom: 0;
  }
  .gallery-img {
    max-height: 100%;
