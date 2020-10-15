@@ -1,5 +1,5 @@
 const imgs = document.getElementsByClassName('gallery-img');
-const viewer = document.getElementsByClassName('viewer-img')[0];
+const viewer = document.getElementById('viewer-img');
 const caption = document.getElementById('viewer-caption').getElementsByTagName('p')[0];
 const buttons = document.getElementsByTagName('button')
 let index = 0; 
@@ -30,17 +30,21 @@ buttons[1].addEventListener('click', () => {
 
 document.addEventListener('keydown', (event) => {
    const key = event.key;
-   case "ArrowLeft":
-      if (index == 0) {
-         index = imgs.length - 1;
-      } else {
-         index--;
-      }
-   break; 
-   if (index == (imgs.length - 1)) {
-      index = 0;
-   } else {
-      index++;
+   switch (key) {
+      case "ArrowLeft":
+         if (index == 0) {
+            index = imgs.length - 1;
+         } else {
+            index--;
+         }
+      break; 
+      case "ArrowRight":
+         if (index == (imgs.length - 1)) {
+            index = 0;
+         } else {
+            index++;
+         }
+      break;
    }
    updateViewer(index);
 })
