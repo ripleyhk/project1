@@ -28,6 +28,31 @@ buttons[1].addEventListener('click', () => {
    updateViewer(index);
 })
 
+for (let i = 0; i < imgs.length; i++) {
+   imgs[i].addEventListener('click touchstart', () => {
+      updateViewer(i);
+      updateIndex();
+   })
+}
+
+buttons[0].addEventListener('click touchstart', () => {
+   if (index == 0) {
+      index = imgs.length - 1;
+   } else {
+      index--;
+   }
+   updateViewer(index);
+})
+
+buttons[1].addEventListener('click touchstart', () => {
+   if (index == (imgs.length - 1)) {
+      index = 0;
+   } else {
+      index++;
+   }
+   updateViewer(index);
+})
+
 document.addEventListener('keydown', (event) => {
    const key = event.key;
    switch (key) {
