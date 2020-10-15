@@ -4,13 +4,13 @@ const caption = document.getElementById('viewer-caption').getElementsByTagName('
 const buttons = document.getElementsByTagName('button')
 let index = 0; 
 for (let i = 0; i < imgs.length; i++) {
-   imgs[i].addEventListener('click touchstart', () => {
+   imgs[i].addEventListener('click', () => {
       updateViewer(i);
       updateIndex();
    })
 }
 
-buttons[0].addEventListener('click touchstart', () => {
+buttons[0].addEventListener('click', () => {
    if (index == 0) {
       index = imgs.length - 1;
    } else {
@@ -19,7 +19,7 @@ buttons[0].addEventListener('click touchstart', () => {
    updateViewer(index);
 })
 
-buttons[1].addEventListener('click touchstart', () => {
+buttons[1].addEventListener('click', () => {
    if (index == (imgs.length - 1)) {
       index = 0;
    } else {
