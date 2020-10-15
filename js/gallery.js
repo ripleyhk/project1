@@ -29,13 +29,13 @@ buttons[1].addEventListener('click', () => {
 })
 
 for (let i = 0; i < imgs.length; i++) {
-   imgs[i].addEventListener('click touchstart', () => {
+   imgs[i].addEventListener('mouseover', () => {
       updateViewer(i);
       updateIndex();
    })
 }
 
-buttons[0].addEventListener('click touchstart', () => {
+buttons[0].addEventListener('mouseover', () => {
    if (index == 0) {
       index = imgs.length - 1;
    } else {
@@ -44,7 +44,7 @@ buttons[0].addEventListener('click touchstart', () => {
    updateViewer(index);
 })
 
-buttons[1].addEventListener('click touchstart', () => {
+buttons[1].addEventListener('mouseover', () => {
    if (index == (imgs.length - 1)) {
       index = 0;
    } else {
