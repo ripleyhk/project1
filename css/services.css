@@ -1,9 +1,0 @@
-@media (max-width:500px) {
-   main {
-     height: fit-content;
-     width: 100vw;
-     margin-left: 5vw;
-     margin-right: 5vw;
-     margin-bottom: 10vh;
-   }
-}
